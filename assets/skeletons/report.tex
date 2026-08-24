@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+
+\title{Report Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+Opening section.
+
+\chapter{Findings}
+\section{First finding}
+Body text.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+Item & Value \\
+\midrule
+Example & 123 \\
+\bottomrule
+\end{tabular}
+\caption{Example table}
+\end{table}
+
+\chapter{Conclusion}
+Closing section.
+
+\end{document}

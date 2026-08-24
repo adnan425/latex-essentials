@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+
+% --- Fill in ---
+\newcommand{\senderName}{Your Name}
+\newcommand{\senderAddress}{Your Address}
+\newcommand{\recipientName}{Recipient Name}
+\newcommand{\recipientAddress}{Recipient Address}
+\newcommand{\letterDate}{\today}
+\newcommand{\letterSubject}{Subject line}
+
+\begin{document}
+
+\begin{flushright}
+\senderName \\
+\senderAddress
+\end{flushright}
+
+\letterDate
+
+\recipientName \\
+\recipientAddress
+
+\vspace{0.5cm}
+\textbf{Re: \letterSubject}
+
+\vspace{0.3cm}
+Dear \recipientName,
+
+Body text goes here.
+
+Sincerely, \\
+\senderName
+
+\end{document}
